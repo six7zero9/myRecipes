@@ -21,7 +21,7 @@ $navbar-default-color: $light-orange;
 
 #logo:hover {
     color: #312312;
-    text-decoration: none;
+    text-decoration: overline underline;
 }
 
 body {
@@ -32,6 +32,11 @@ body {
     margin-left: 25px;
     float: left;
     margin-top: 20px;
+}
+
+.btn:hover {
+    color: #312312; 
+    text-decoration: overline underline;
 }
 
 .center {
