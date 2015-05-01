@@ -83,7 +83,7 @@ h2 {
 }
 
 .well {
-    background-color: gray;
+    background-color: #D3D3D3;
 }
 
 input, textarea, select, .undeditable-input {
@@ -95,4 +95,15 @@ input, textarea, select, .undeditable-input {
 
 input {
     height: auto !important;
+}
+
+span.picture {
+    margin-top: 10px;
+    input {
+        border: 0;
+    }
+}
+
+.show_recipe {
+    margin: 10px 10px 10px 10px;
 }
