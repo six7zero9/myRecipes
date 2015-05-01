@@ -25,7 +25,7 @@ $navbar-default-color: $light-orange;
 }
 
 body {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .nav_item {
@@ -69,7 +69,30 @@ h2 {
 }
 
 .footer {
-    margin-top: 225px;
+    margin-top: 25px;
     border-top: 1px solid #eaeaea;
     color: #777;
+}
+
+.chef_info {
+    margin-top: 10px;
+}
+
+.gravatar {
+    border-radius: 10px;
+}
+
+.well {
+    background-color: gray;
+}
+
+input, textarea, select, .undeditable-input {
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    height: auto !important;
 }
