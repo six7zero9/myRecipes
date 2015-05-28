@@ -42,10 +42,10 @@
   <div class="col-md-4">
   
   <% if logged_in? and (@recipe.chef == current_user || current_user.admin?) %>
-    <%= link_to "Edit this Recipe", edit_recipe_path(@recipe), class: "btn btn-success pull-right" %>
+    <%= link_to "Edit this Recipe", edit_recipe_path(@recipe), class: "btn btn-success" %>
   <% end %>
   
-  <% if current_user.admin? %>
+  <% if logged_in? and current_user.admin? %>
     <%= link_to "Delete Recipe", @recipe, method: :delete, class: "btn btn-danger pull-right", data: { confirm: "Are you sure?" } %>
   <% end %>
   
